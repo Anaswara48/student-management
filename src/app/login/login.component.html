@@ -1,0 +1,29 @@
+<div class="container ">
+    <div class="row">
+
+        <div class="col-md-6">
+<div class="card">
+    <div class="text-center mt-4">
+        <h1 style="color: rgb(115, 10, 119);">Student Login</h1>
+    </div>
+
+    <form [formGroup]="loginform" (ngSubmit)="login()">
+        <div class="mb-3 mt-4 text-dark">
+          <label   class="form-label">Email address</label>
+          <input type="email" class="form-control" formControlName="email" placeholder="enter email" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small *ngIf="loginform.get('email')?.invalid && loginform.get('email')?.touched" class="text-danger">email is required</small>
+        </div>
+        <div class="mb-3 mt-4 text-dark">
+          <label  class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password" placeholder="enter password" id="exampleInputPassword1">
+          <small *ngIf="loginform.get('password')?.invalid && loginform.get('password')?.touched" class="text-danger">password is required</small>
+
+        </div>
+        <button [disabled]="loginform.invalid" type="submit"  class="btn btn-success">Submit</button>
+        <a class="ms-3" style="color: rgb(37, 37, 37) ;" routerLink="/signup">New User? Click to signup</a>
+
+      </form>
+        </div>
+    </div>
+</div>
+</div>

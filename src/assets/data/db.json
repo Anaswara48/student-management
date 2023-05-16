@@ -1,0 +1,115 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "anju",
+      "email": "anju@gmail.com",
+      "mobile": 222222222,
+      "city": "mumbai"
+    },
+    {
+      "id": 2,
+      "name": "ammu",
+      "email": "ammu@gmail.com",
+      "mobile": 3333333333,
+      "city": "bhopal"
+    },
+    {
+      "id": 3,
+      "name": "anaswarav71@gmail.com",
+      "email": "anaswarav71@gmail.com",
+      "mobile": 231231,
+      "city": "mumbai"
+    }
+  ],
+  "signup": [
+    {
+      "name": "avb",
+      "email": "asdgh",
+      "mobile": 123567,
+      "password": "jkjkl",
+      "id": 1
+    },
+    {
+      "name": "appu",
+      "email": "appu@gmail.com",
+      "mobile": 1234567890,
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "appu",
+      "email": "appu@gmail.com",
+      "mobile": 12345678890,
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "anu",
+      "email": "anu@gmail.com",
+      "mobile": 1234567890,
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "anu",
+      "email": "anu@gmail.com",
+      "mobile": 123456,
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "qwe",
+      "email": "anu@gmail.com",
+      "mobile": 1234,
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "ann",
+      "email": "anu@gmail.com",
+      "mobile": 123,
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "anu",
+      "email": "anu@gmail.com",
+      "mobile": 123123,
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "ammu",
+      "email": "ammu1@gmail.com",
+      "mobile": 123456,
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "ammu1@gmail.com",
+      "email": "ammu1@gmail.com",
+      "mobile": 12333,
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "anaswarav71@gmail.com",
+      "email": "anaswarav71@gmail.com",
+      "mobile": 123123,
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "achu",
+      "email": "achu@gmail.com",
+      "mobile": 123456,
+      "password": "123",
+      "id": 12
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
